@@ -3,7 +3,6 @@ import { Card, CardImg, CardText, CardBody,
     CardTitle } from 'reactstrap';
 
 
-// class DishDetail extends Component {
     function RenderDish({dish}){
         if (dish != null)
             return (
@@ -40,7 +39,7 @@ import { Card, CardImg, CardText, CardBody,
         });
 
         return (
-            <div className='col-12  col-md-5 m-1'>
+            <div className='col-12 col-md-5 m-1'>
                 <h4>Comment</h4>
                 <ul className='list-unstyled'>{com}</ul>
             </div>
