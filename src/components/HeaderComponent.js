@@ -109,7 +109,6 @@ render() {
                             </FormGroup>
                             <Button type="submit" value="submit" color="primary">Login</Button>
                         </Form>
-
                 </ModalBody>
             </Modal>
         </div>
